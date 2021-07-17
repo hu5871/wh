@@ -1,0 +1,1 @@
+const str= "01=380 02=400 03=68 09=32 22=2680 23=450".replace(/(\d+)=(\d+)/g,function(v,a,b){return a+'='+(b*0.5)})
